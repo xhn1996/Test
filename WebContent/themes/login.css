@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url("common.css");
+
+.regist {
+	box-shadow: -156px 51px 215px 0px rgba(207, 211, 220, 0.89), 5px 5px
+		46px 0px rgba(207, 211, 220, 0.58);
+	border-radius: 8px;
+}
+
+.bbbb {
+	margin: 50px auto;
+}
+
+form {
+	font-size: 16px;
+}
+
+.tishi {
+	display: block;
+	height: 15px;
+	line-height: 15px;
+	font-size: 13px;
+	text-indent: 15px;
+}
+
+.mytit {
+	height: 75px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 75px;
+	text-indent: 50px;
+	border: none;
+}
+
+.inputimg {
+	margin-bottom: 0px;
+	position: relative;
+}
+
+.inputimg img {
+	width: 30px;
+	height: 20px;
+	margin-right: 20px;
+}
+
+.inputimg input {
+	height: 60px;
+	border: none;
+	border-bottom: 1px solid #cfd3dc； box-sizing: border-box;
+	background: transparent;
+}
+
+.myxuan {
+	float: left;
+	width: 230px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+.myxuan label {
+	float: left;
+	height: 30px;
+}
+
+.myxuan input {
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+
+.tijiao {
+	margin: auto;
+	margin-top: 40px;
+	width: 230px;
+}
+
+.tijiao input {
+	width: 230px;
+	height: 50px;
+	background: #1460ec;
+	box-shadow: -156px 51px 215px 0px rgba(207, 211, 220, 0.89), 5px 5px
+		46px 0px rgba(207, 211, 220, 0.58);
+	border-radius: 8px;
+	font-size: 24px;
+	color: #ffffff;
+	border: none;
+	margin: 30px auto;
+}
+
+.tong {
+	height: 14px;
+}
+
+.tong input {
+	height: 14px;
+	width: 14px;
+	float: left;
+	margin-right: 10px;
+}
+
+.tong label {
+	margin-left: 10px;
+}
+
+.myaa {
+	height: 50px;
+	border-top: 2px dotted #cfd3dc;
+	margin-top: 30px;
+	line-height: 50px;
+}

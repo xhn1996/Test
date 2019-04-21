@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url("common.css");
+
+.userInfo {
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+.userinner {
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 5px 0px rgba(20, 96, 236, 0.48);
+	border-radius: 1px;
+}
+
+.info {
+	margin: 50px auto;
+}
+
+#mmm {
+	position: relative;
+}
+
+#si {
+	position: absolute;
+	top: 0px;
+	background: #474747;
+}
+
+.userinner img {
+	width: 77px;
+	height: 77px;
+	border-radius: 50%;
+	margin: 90px auto;
+}
+
+.myul {
+	list-style: none;
+}
+
+.myul li {
+	list-style: none;
+	margin: 15px;
+}
+
+.myul li label {
+	display: inline-block;
+	width: 40px;
+	font-size: 8px;
+	text-align: left;
+}
+
+.myul input {
+	height: 30px;
+	width: 110px;
+	background: transparent;
+	border: none;
+	font-size: 10px;
+	font-weight: bold;
+	text-indent: 10px;
+}
+
+.bus {
+	float: right;
+}
+
+.bus button {
+	width: 67px;
+	height: 26px;
+	background: #1460ec;
+	border-radius: 3px;
+	font-size: 8px;
+	color: #ffffff;
+	border: none;
+	margin-top: 30px;
+}
+

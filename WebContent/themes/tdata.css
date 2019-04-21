@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url("common.css");
+
+.top {
+	height: 55px;
+}
+
+
+.maindiv {
+	
+}
+
+.maindiv img {
+	margin-top: 5px;
+	width: 45px;
+	display: block;
+}
+
+.sdiv {
+	height:55px;
+	margin:auto;
+	background: #145fec;
+	border-radius: 5px;
+	text-align: center;
+	position: relative;
+}
+.myimg{
+	color:#145fec;
+	font-size: 20px;
+}
+.myimg img{
+	display: block;
+}
+.myimg span{
+	margin-top:10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 5px;
+}
+.sx{
+	margin:auto;
+	height:55px;
+	background: #a1bef6;
+}
+.sx div{
+	float: right;
+	width: 100px;
+	height: 55px;
+}
+.sx div img{
+	width: 35px;
+	float: right;
+	margin: 10px 5px;
+}
+.sx span{
+	line-height: 55px;
+	font-size: 24px;
+	color: #ffffff;
+	margin-left: 25px;
+}
+.sdiv span{
+	line-height: 55px;
+	font-size: 30px;
+	color:#ffffff;
+}
+
+.imgleft {
+	margin-left: 0px;
+}
+
+.imgright {
+	float: right;
+}
+.sf{
+	border-top:1px solid #ffffff;
+	box-sizing:border-box;
+	overflow:hidden;
+	margin:auto;
+	height: 100px;
+	text-align: center;
+	background: #a1bef6;
+}
+.sf img{
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-top: 7px;
+}
+.sf div{
+	margin:25px auto;
+	height: 50px;
+	width:200px;
+	text-align:center;
+}
+.sf span{
+	line-height: 50px;
+	font-size: 24px;
+	color: #ffffff;
+}
+.xain1{
+	width: 100%;
+	position: relative;
+}
+.xian3{
+	position:absolute;
+	top:0px;
+	z-index:999;
+	width: 100%;
+	height: 100%;
+	background: #212121;
+	opacity: 0.9;
+}
+.xian4{
+	margin:auto;
+	background:#ffffff;
+	margin-top:25%;
+	height: 40%;
+	color: #145fec;
+	font-size: 30px;
+	text-align: center;
+	opacity: 1;
+}
+.xianimg{
+	float: right;
+	margin: 10px;
+}
+.rowtext{
+	height: 75px;
+	line-height: 75px;
+}
+.rowbu{
+	margin-top: 100px;
+	text-align: center;
+}
+.rowbu button{
+	height:70px;
+	font-size:20px;
+	width: 50%;
+	border: none;
+	background: #145fec;
+	color: #ffffff;
+	border-radius: 5px;
+}
+.xian5,.xian6{
+	position:absolute;
+	top:0px;
+	z-index:999;
+	width: 100%;
+	height: 100%;
+	
+}
+.rowin input,.rowque input{
+	height: 45px;
+	margin-top: 30px;
+	width: 60%;
+	color:#c2d1f0;
+	border: 1px solid #c2d1f0;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-indent: 10px;
+}
+.rowque input{
+	background-color: #145fec;
+	color: #ffffff;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+}

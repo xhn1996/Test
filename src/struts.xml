@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+	<!-- namespace表示命名空间，如果没有定义，表示默认命名空间，可以处理任何Action请求，如果namespace="/user"那么表单action="user/xxx" -->
+	<package name="icon" extends="struts-default">
+		<action name="userIcon" class="icon">
+		</action>
+	</package>
+	<package name="regist" extends="struts-default">
+		<action name="registAction" class="registAction">
+			<result name="error"></result>
+			<result name="SUCCESS">/index.jsp</result>
+			<result name="input">/pages/regist.jsp</result>
+		</action>
+	</package>
+	<package name="yzm" extends="struts-default">
+		<action name="yzm" class="authCode">
+			<result name="input">/pages/regist.jsp</result>
+		</action>
+	</package>
+	<package name="login" extends="struts-default">
+		<action name="login" class="loginAction">
+			<result name="input">/pages/login.jsp</result>
+			<result name="success">/index.jsp</result>
+		</action>
+	</package>
+</struts>

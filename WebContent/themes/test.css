@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url("common.css");
+
+.soso {
+	overflow: hidden;
+}
+
+.testshou {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.mmm{
+	margin-bottom: 100px;
+}
+#mo1 {
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 9px 0px rgba(20, 96, 236, 0.48);
+	text-indent: 27px;
+}
+
+#mo2 {
+	width: 100px;
+	color: #ffffff;
+	background: #1460ec;
+}
+
+.testmy {
+	box-shadow: 0px 0px 9px 0px rgba(20, 96, 236, 0.48);
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.testtop {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.testbig {
+	background: #dbe3f0;
+}
+.testtop div{
+	display: inline-block;
+	margin: auto 10px;;
+}
+.testcol {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#cols {
+	background: #ffffff;
+	border-right: 15px solid #dbe3f0;
+	box-sizing: border-box;
+}
+
+.content {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold; background-color : #ffffff;
+	line-height: 70px;
+	height: 70px;
+	border-left: #dbe3f0 15px solid;
+	box-sizing: border-box;
+	background-color: #ffffff;
+}
+
+.myimg {
+	width: 65px;
+	height: 100px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+}
+
+.myimg img {
+	width: 60px;
+	height: 52px;
+}
+
+.myimg span {
+	display: block;
+	margin-top: 8px;
+}
+
+.myimg a {
+	width: 65px;
+	height: 24px;
+	display: block;
+	line-height: 24px;
+	border-radius: 12px;
+	text-align: center;
+	background: #1460ec;
+	color: #ffffff;
+	font-size:12px;
+	margin-top: 8px;
+}
+
+.myimg a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.imgxs {
+	margin-top: 30px;
+	height: 120px;
+}
+
+#mypage {
+	margin-top: 100px;
+	float: right;
+	margin-right: -30px;
+}

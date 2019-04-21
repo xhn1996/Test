@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url("common.css");
+
+.top-box {
+	height: 88px;
+}
+
+#sss {
+	
+}
+
+#aaa {
+	display: inline-block;
+	width: 80px;
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #000000;
+	line-height: 22px;
+}
+
+.msy {
+	position: relative;
+	float: right;
+	width: 100px;
+}
+.msy ul {
+	position: absolute;
+	z-index: 999;
+	width: 100px;
+	text-align: center;
+	font-size: 10px;
+	color: #ffffff;
+	right: -43px;
+	top: 30px;
+	background: rgba(255, 255, 255, 1);
+	border: 1px solid rgba(214, 225, 246, 1);
+	box-shadow: 0px 1px 3px 0px rgba(20, 96, 236, 0.56);
+	border-radius: 1px;
+	text-align: center;
+	margin: auto;
+	border: none;
+}
+
+.msy ul li {
+	line-height: 37px;
+	height: 37px;
+	width: 100px;
+	border: 1px solid #d6e1f6;
+	box-sizing: border-box;
+}
+
+#aaaa li a {
+	background: #ffffff;
+}
+
+.logo {
+	background: #1460ec;
+	height: 62px;
+	width: 62px;
+	border-radius: 50%;
+	font-size: 22px;
+	line-height: 62px;
+	text-align: center;
+	margin-top: 25px;
+	color: #ffffff;
+}
+
+#bub {
+	float: left;
+	text-align: center;
+	background: #000000;
+	margin-left: 5px;
+	border: none;
+}
+
+#bub span {
+	background: #ffffff;
+}
+
+.text {
+	font-size: 16px;
+	color: #1460ec;
+	font-weight: bold;
+	margin-top: 49px;
+}
+
+.mya {
+	font-size: 16px;
+	color: #1460ec;
+	margin-top: 49px;
+}
+
+#imgs {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	border: 1px solid #3c5fef;
+}
+
+.mya a {
+	color: #000000;
+	font-weight: bold;
+}
+
+.mya a:hover {
+	color: #1460ec;
+	text-decoration: none;
+}
+
+.nav li {
+	text-align: center;
+	background: #ffffff;
+}
+
+.nav a {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	font-size: 18px;
+	color: #1460ec;
+	background: #ffffff;
+}
